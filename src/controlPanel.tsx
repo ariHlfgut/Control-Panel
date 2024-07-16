@@ -41,7 +41,7 @@ const ControlPanel: React.FC = () => {
             alt=""
           />
         </button>
-        <img className="icon-footer" src="src\assets\סמל.png" alt="" />
+        <img className="icon-footer" src="src\assets\choma.png" alt="" />
       </div>
       <div className="section">
         <h2>עזרים</h2>
