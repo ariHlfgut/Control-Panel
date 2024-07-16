@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  direction: rtl;
+}
+.icons {
+  height: 3rem;
+  width: 5rem;
+  border-radius: 0.5rem;
+}
+.icon-footer {
+  height: 16rem;
+  width: 18rem;
+  position: absolute;
+  margin-right: 50rem;
+  border-radius: 6rem;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+.button-control {
+  margin-left: 2rem;
+}
+.control-panel {
+  width: 180vh;
+  height: 90vh;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.control-panel h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f9f3d3;
+  padding-bottom: 9px;
+}
+
+.section {
+  margin: 40px 30px;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  color: #555;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  color: #fff;
+  background-color: #f9f3d3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f9f3d3;
+}
+
+button:focus {
+  outline: none;
+}
+
+.taskboard-container {
+  margin-top: 20px;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  background-color: #260d09;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #260d09;
+}
+
+.date-display {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.task-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-item {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.task-item h4 {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.task-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.task-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.task-content label {
+  display: flex;
+  align-items: center;
+}
+
+.task-content input[type="checkbox"] {
+  margin-right: 10px;
+}
