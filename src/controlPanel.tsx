@@ -25,7 +25,7 @@ const ControlPanel: React.FC = () => {
           <img
             className="icons"
             src="https://trafficlawyer.co.il/wp-content/uploads/2020/03/httpstrafficlawyer.co_.il-%D7%9C%D7%A7%D7%98-%D7%9B%D7%AA%D7%91%D7%95%D7%AA-%D7%9E%D7%A9%D7%A4%D7%98%D7%99%D7%95%D7%AA.jpg"
-            alt=""
+            alt="a"
           />
         </button>
       </div>
