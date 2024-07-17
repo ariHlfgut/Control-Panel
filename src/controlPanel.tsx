@@ -1,7 +1,9 @@
 import React from "react";
 import "./ControlPanel.css";
+import { useNavigate } from "react-router-dom";
 
 const ControlPanel: React.FC = () => {
+  const navigate = useNavigate()
   return (
     <div className="control-panel">
       <h1>לוח בקרה - אום אני חומה</h1>
@@ -33,7 +35,7 @@ const ControlPanel: React.FC = () => {
         <h2>הדרכות</h2>
         <button
           className="button-control"
-          onClick={() => window.open("/taskboard")}
+          onClick={() => navigte("/taskboard")}
         >
           <img
             className="icons"
