@@ -35,7 +35,7 @@ const ControlPanel: React.FC = () => {
         <h2>הדרכות</h2>
         <button
           className="button-control"
-          onClick={() => navigate("/testtaskboard")}
+          onClick={() => navigate("/taskboard")}
         >
           <img
             className="icons"
