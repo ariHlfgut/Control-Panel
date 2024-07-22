@@ -8,16 +8,35 @@ body {
   height: 100vh;
   direction: rtl;
 }
+.notifications {
+  width: 26rem;
+  height: 22rem;
+  background-color: #f9f3d3;
+  border-radius: 0.7rem;
+  display: flex;
+  margin-right: 55rem;
+  position: absolute;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.h2 {
+  color: #3f130d;
+  margin: 1rem;
+}
+.p {
+  color: #3f130d;
+  margin: 2rem;
+}
 .icons {
   height: 3rem;
   width: 5rem;
   border-radius: 0.5rem;
 }
 .icon-footer {
-  height: 16rem;
-  width: 18rem;
+  height: 8rem;
+  width: 9rem;
   position: absolute;
-  margin-right: 50rem;
+  margin-right: 60rem;
   border-radius: 6rem;
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
 }

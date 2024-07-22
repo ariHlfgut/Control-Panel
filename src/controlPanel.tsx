@@ -1,12 +1,22 @@
 import React from "react";
 import "./ControlPanel.css";
 import { useNavigate } from "react-router-dom";
+import choma from "./assets/choma.png";
 
 const ControlPanel: React.FC = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className="control-panel">
       <h1>לוח בקרה - אום אני חומה</h1>
+      <div className="notifications">
+        <h2 className="h2">הודעות</h2>
+        <div className="p">
+          {" "}
+          <p>מחר יום שלישי צום י"ז בתמוז המשרד סגור</p>
+          <p>נציג תורן בצהרים 12:00 - 14:00 אלחנן</p>
+          <p> נציג תורן ערב 19:30 - 21:30 יעקב</p>
+        </div>
+      </div>
       <div className="section">
         <h2>דוחות</h2>
         <button
@@ -43,7 +53,6 @@ const ControlPanel: React.FC = () => {
             alt=""
           />
         </button>
-        <img className="icon-footer" src="src\assets\choma.png" alt="" />
       </div>
       <div className="section">
         <h2>עזרים</h2>
@@ -62,6 +71,7 @@ const ControlPanel: React.FC = () => {
             alt=""
           />
         </button>
+        <img className="icon-footer" src={choma} alt="" />
       </div>
     </div>
   );
