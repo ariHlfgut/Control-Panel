@@ -7,12 +7,10 @@ import "./App.css";
 const App: React.FC = () => {
   return (
     <Router>
-      <div className="app-container">
-        <Routes>
-          <Route path="/" element={<ControlPanel />} />
-          <Route path="/taskboard" element={<TaskBoard />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<ControlPanel />} />
+        <Route path="/taskboard" element={<TaskBoard />} />
+      </Routes>
     </Router>
   );
 };
