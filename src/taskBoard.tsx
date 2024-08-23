@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./taskBoard.css";
-import { task1, task2 } from "./task";
+import { task1, task2, task3 } from "./task";
 
 interface Task {
   id: number;
@@ -18,6 +18,7 @@ interface DayTasks {
 const tasksData: DayTasks = {
   "2024-07-16": task1,
   "2024-07-24": task2,
+  "2024-08-25": task3,
 };
 
 const TaskBoard: React.FC = () => {
@@ -136,6 +137,7 @@ const TaskList: React.FC<{
             <h3>{task.title}</h3>
             <h4>{task.subTitle}</h4>
             <p>{task.description}</p>
+            <br />
             <label>
               <input
                 type="checkbox"
