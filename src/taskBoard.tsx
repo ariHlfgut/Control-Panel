@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./taskBoard.css";
-import { task1, task2, task3 } from "./task";
+import { task1, task2, task3, task4 } from "./task";
 
 interface Task {
   id: number;
@@ -19,6 +19,7 @@ const tasksData: DayTasks = {
   "2024-07-16": task1,
   "2024-07-24": task2,
   "2024-08-25": task3,
+  "2024-08-26": task4,
 };
 
 const TaskBoard: React.FC = () => {
